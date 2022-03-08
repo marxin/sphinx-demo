@@ -11,6 +11,31 @@ Welcome to Demo's documentation!
    :caption: Contents:
 
 
+I'm a demo documentation page.
+
+.. option:: -Wno-shift-overflow, -Wshift-overflow=n, -Wshift-overflow
+
+  .. note::
+
+    Default value is :option:`-Wno-shift-overflow`, :option:`-Wshift-overflow` is enabled by :option:`-Wall`.
+
+  These options control warnings about left shift overflows.
+
+  ``-Wshift-overflow=1``
+    This is the warning level of :option:`-Wshift-overflow` and ...
+
+
+.. option:: -Wno-shift-overflow2, -Wshift-overflow2=n (non-default), -Wshift-overflow2 (non-default)
+
+  These options control warnings about left shift overflows.
+
+  ``-Wshift-overflow2=1``
+    This is the warning level of :option:`-Wshift-overflow2` and ...
+
+.. option:: -Wno-shift-overflow3
+
+  Default option value for :option:`-Wshift-overflow3`.
+
 Code block:
 
 .. code-block::
